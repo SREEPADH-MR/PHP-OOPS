@@ -1,2 +1,2 @@
-# PHP-OOPS
-Only for learning OOPS concepts
+# PHP-OOPS & Basics
+Only for learning OOPS concepts and basics.
