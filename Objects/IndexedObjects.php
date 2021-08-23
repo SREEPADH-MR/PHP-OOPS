@@ -4,14 +4,14 @@
 // or
 
 // Indexed Objects.
-$object = (object)[
+$indexedObject = (object)[
     'valueOne',
     'valueTwo',
     'valueThree'
 ];
 
 echo "<pre>";
-print_r($object);
+print_r($indexedObject);
 echo "<br>";
 
 #output
@@ -22,7 +22,7 @@ echo "<br>";
 //     [2] => valueThree
 // )
 
-echo $object->{0};
+echo $indexedObject->{0};
 
 #output
 // valueTwo

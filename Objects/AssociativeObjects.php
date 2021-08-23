@@ -1,14 +1,14 @@
 <?php
 
 // Associative Objects.
-$object = (object)[
+$associativeObject = (object)[
     'keyOne' => 'valueOne',
     'keyTwo' => 'valueTwo',
     'keyThree' => 'valueThree'
 ];
 
 echo "<pre>";
-print_r($object);
+print_r($associativeObject);
 echo "<br>";
 
 #output
@@ -19,7 +19,7 @@ echo "<br>";
 //     [keyThree] => valueThree
 // )
 
-echo $object->keyTwo;
+echo $associativeObject->keyTwo;
 
 #output
 // valueTwo
